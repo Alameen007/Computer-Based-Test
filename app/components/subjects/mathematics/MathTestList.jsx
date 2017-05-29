@@ -1,10 +1,10 @@
 var React = require('react');
 var {connect} = require('react-redux');
-import MathQuestion from 'MathQuestion';
+import Scores from 'Scores';
 import Result from 'Result';
 var MathAPI = require('MathAPI');
 
-export class MathList extends React.Component {
+export class MathTestList extends React.Component {
   render () {
   var {mathematics} = this.props;
   var renderMathematics = () => {
@@ -19,7 +19,7 @@ export class MathList extends React.Component {
 
     return filteredMathematics.map((mathQuestion) => {
       return (
-        <MathQuestion key={mathQuestion.id} {...mathQuestion}/>
+        <Scores key={mathQuestion.id} {...mathQuestion}/>
       );
     });
   };
@@ -35,4 +35,4 @@ export class MathList extends React.Component {
     (state) => {
       return state;
     }
-  )(MathList);
+  )(MathTestList);

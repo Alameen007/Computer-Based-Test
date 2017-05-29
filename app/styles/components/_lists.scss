@@ -1,0 +1,15 @@
+.lists {
+  cursor: pointer;
+
+  &:hover {
+    background: #f0f0f0;
+  }
+}
+
+.resultB {
+  margin-bottom: 2rem;
+}
+
+.correct {
+  color: green;
+}

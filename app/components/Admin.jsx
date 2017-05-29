@@ -5,7 +5,6 @@ import {Link} from 'react-router';
 export class Admin extends React.Component{
   render() {
     return (
-      <div>
         <div className="row">
                 <div className="page page-actions col-sm-11">
                   <div className="col-sm-10 ">
@@ -26,7 +25,6 @@ export class Admin extends React.Component{
                         </div>
                   </div>
                 </div>
-              </div>
       </div>
     );
   }

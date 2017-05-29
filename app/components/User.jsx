@@ -11,7 +11,7 @@ export class User extends React.Component{
                       <h1 className="page-header text-center">Welcome To Computer Based Test</h1>
                         <h3 className="text-center"><b>Subjects</b></h3>
                         <div className="list-group ">
-                          <Link to="#" className="list-group-item">Mathematics <span className="label label-success pull-right">Take a Test</span></Link>
+                          <Link to="/MathTest" className="list-group-item">Mathematics <span className="label label-success pull-right">Take a Test</span></Link>
                           <Link to="#" className="list-group-item">English Language <span className="label label-success pull-right">Take a Test</span></Link>
                           <Link to="#" className="list-group-item">Biology <span className="label label-success pull-right">Take a Test</span></Link>
                           <Link to="#" className="list-group-item">Agriculture <span className="label label-success pull-right">Take a Test</span></Link>

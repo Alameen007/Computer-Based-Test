@@ -61,7 +61,12 @@ module.exports = {
       MathList: 'app/components/subjects/mathematics/MathList.jsx',
       MathQuestion: 'app/components/subjects/mathematics/MathQuestion.jsx',
       MathAPI: 'app/components/subjects/mathematics/MathAPI.jsx',
-      Mathematics: 'app/components/subjects/mathematics/Mathematics.jsx'
+      MathTest: 'app/components/subjects/mathematics/MathTest.jsx',
+      MathTestList: 'app/components/subjects/mathematics/MathTestList.jsx',
+      MathScores: 'app/components/subjects/mathematics/MathScores.jsx',
+      Mathematics: 'app/components/subjects/mathematics/Mathematics.jsx',
+      Result: 'app/components/subjects/mathematics/Result.jsx',
+      Scores: 'app/components/subjects/mathematics/Scores.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },
