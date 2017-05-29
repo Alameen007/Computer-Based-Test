@@ -9,6 +9,7 @@ import Result from 'Result';
 export class Scores extends React.Component {
     render(){
         var {id, mathematics, mathQuestion, mathText, answers, correct, dispatch} = this.props;
+        var correctAns = correct.toUpperCase();
         return(
             <div className="well">
                  <h3>{mathText}</h3>
@@ -21,7 +22,7 @@ export class Scores extends React.Component {
                         })
                     }
                 </ul>
-                <h5>The Correct Answer is: <span className="correct">{correct}</span></h5>
+                <h5>The Correct Answer is: <span className="correct">{correctAns}</span></h5>
             </div>
         )
     }
