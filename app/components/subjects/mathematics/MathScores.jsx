@@ -1,6 +1,6 @@
 var React = require('react');
 import * as Redux from 'react-redux';
-import * as actions from 'actions';
+import * as actions from 'actions'; 
 import {Link} from 'react-router';
 
 import User from 'User';

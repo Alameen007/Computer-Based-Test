@@ -14,7 +14,7 @@ export var startAddMathQuestion = (mathText, answerA, answerB, answerC, answerD,
       mathText,
       answers: [
         {
-            id:'A',
+             id:'A',
             text: answerA
         },
         {
