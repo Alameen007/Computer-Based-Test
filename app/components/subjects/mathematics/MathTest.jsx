@@ -7,6 +7,7 @@ import Result from 'Result';
 
 
 export class MathTest extends React.Component {
+  
   render () {
     return (
 
